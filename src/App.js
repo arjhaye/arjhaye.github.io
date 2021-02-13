@@ -1,11 +1,23 @@
 import './App.css'
-import Navbar from './components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navb from './components/Navb'
+import Banner from './components/Banner'
+import Services from './components/Services'
+import About from './components/About'
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navb />
+      <Banner />
+      <Services />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

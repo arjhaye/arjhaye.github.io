@@ -1,38 +1,142 @@
-.App {
+
+body{
+  font-family: 'Roboto Mono', monospace !important;
+}
+a{
+  text-decoration: none !important;
+}
+
+/********************************* NAVBAR **************************************/
+.Navbar{
+  background: #1f2235;
+}
+.nav__link{
+  color: #ec434e !important;
+  border-bottom: 1px solid #fff;
+}
+/********************************* BANNER **************************************/
+.background__img{
+  background: url('images/bg.jpg');
+  background-repeat: no-repeat;
+}
+.banner__icons{
+  border-radius: 20px !important;
+}
+.banner__align{
+  padding: 150px 0;
+  margin: 100px 0;
+}
+.text__white{
+  color: #fff !important;
+}
+.banner__button{
+  border-radius: 25px !important;
+}
+
+/********************************* SERVICES **************************************/
+.services{
+  background: #1f2235;
+  color: #fff;
+  padding: 100px 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.services__box{
+    padding: 40px;
+    background: #23263a;
+    color: #fff;
+    margin: 20px;
+    transition: all .5s linear;
+}
+.services__box:hover{
+  background: #ec434e;
+}
+.services__icon{
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/********************************* ABOUT **************************************/
+.about{
+  background: #23263a;
+  padding: 100px 0;
+  text-align: center;
+}
+.about__content{
+  padding-top: 70px;
+}
+.about__info{
+  padding-top: 30px;
+}
+.text__color{
+  color: #ec434e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/********************************* PORTFOLIO **************************************/
+.portfolio{
+  background: #1f2235;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio__content{
+  padding-top: 70px;
+}
+.card__body{
+  background-color: #1f2235 !important;
+  border-color: #fff !important;
+}
+.card__row{
+  padding-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+/********************************* MODAL BODY **************************************/
+.modal__body{
+  background-color: #1f2235;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/********************************* CONTACT **************************************/
+.contact{
+  background: #23263a;
+  padding: 200px 0;
+  text-align: center;
+  height: 800px;
+  align-self: center;
+}
+.contact__me{
+  padding-bottom: 20px;
+}
+.text__area{
+  color: #495057;
+}
+.form__spacing{
+  padding-bottom: 20px;
+}
+
+/********************************* FOOTER **************************************/
+.footer{
+  padding: 25px;
+  background: #1f2235;
+  text-align: center;
+  color: #fff;
+  height: 100px;
+}
+
+/********************************* TEXT TRANSITION **************************************/
+.typed__text{
+  font-size: 1.75rem;
+  color: #ec434e;
+}
+.type__greet{
+  font-size: 1.75rem;
+  color: #ec434e;
+}
+
+/********************************* MEDIA QUERY **************************************/
+img {
+  display: block
+}
+@media (max-width: 700px) {
+  img {
+    display: none
   }
 }
