@@ -89,11 +89,17 @@ a{
   padding-bottom: 40px;
 }
 
+
 /********************************* MODAL BODY **************************************/
 .modal__body{
   background-color: #1f2235;
 }
-
+.modal__textc{
+  color: #ec434e;
+}
+.img__modal{
+  width: 100%;
+}
 /********************************* CONTACT **************************************/
 .contact{
   background: #23263a;

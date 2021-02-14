@@ -57,7 +57,7 @@ export default function Contact() {
                     <Col>
                       <Form.Group controlId="exampleForm.ControlInput1">
                       <Form.Label className="text__white">Name</Form.Label>
-                      <Form.Control type="text" placeholder="Name Sample" name="name" value={this.state.name} onChange={this.handleName} />
+                      <Form.Control type="text" placeholder="Name Sample" name="name"/>
                       </Form.Group>
                     </Col>
                     <Col>
